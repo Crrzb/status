@@ -5,7 +5,7 @@ html {
 
 main {
     height: 100vh;
-    min-height: 650px;
+    min-height: 850px;
     padding:0;
 
     justify-content: flex-start;
@@ -28,7 +28,7 @@ main {
 }
 
 .div-estadistica {
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .section-actualizado {
@@ -39,5 +39,10 @@ main {
 .section-instituciones {
     height: 25%;
     margin: 10px 0;
+}
+
+.div-owid,
+.div-ssmx {
+    font-size: 2.4rem;
 }
 
