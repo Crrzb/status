@@ -1,0 +1,57 @@
+
+main {
+    justify-content: flex-start;
+    padding-bottom: 0;
+    height: 100vh;
+
+    
+}
+
+.section-estadisticas {
+    height: 45%;
+    width: 90%;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 20px 0;
+}
+
+#p-nota {
+    height: 10%;
+    width: 90%;
+
+    padding: 0;
+    margin: 0;
+}
+
+.div-estadistica {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.section-actualizado {
+    height: 25%;
+    margin: 30px 0;
+}
+
+.section-instituciones {
+    height: 25%;
+    margin: 10px 0;
+    max-height: 500px;
+    
+}
+
+.div-owid {
+    
+    height: 100%;
+
+    font-size: 2.4rem;
+    
+}
+
+.div-ssmx {
+    height: 100%;
+
+    font-size: 2.4rem;
+}
+
