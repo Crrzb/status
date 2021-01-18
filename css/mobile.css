@@ -132,6 +132,7 @@ main {
 .div-titulos img {
     width: 25px;
     height: 25px;
+    margin-right: 10px;
 }
 
 .div-contenedor-barra {
@@ -184,7 +185,7 @@ main {
 
 
 .div-cantidades {
-    width: 50%;
+    width: 40%;
     height: auto;
 
     display: flex;
@@ -196,7 +197,7 @@ main {
 }
 
 .div-personas {
-    width: 50%;
+    width: 60%;
     height: auto;
 
     display: flex;

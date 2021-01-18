@@ -58,13 +58,13 @@ const calcularBarra = (total,poblacion,barra) => {
 
 calcularBarra(totalVacunadaMundo,poblacionMundo,barraMundo);
 
-PtotalVacMundo.innerHTML = totalVacunadaMundo.toLocaleString('en') +" - "+ Math.floor((porcentaje * 100)) + " %";
-PrestanteVacMundo.innerHTML = restantesMundo.toLocaleString('en')+ " - " + Math.floor(100 - (porcentaje * 100)) + " %";
+PtotalVacMundo.innerHTML = totalVacunadaMundo.toLocaleString('en') +" - "+ porcentaje.toFixed(2) + "%";
+PrestanteVacMundo.innerHTML = restantesMundo.toLocaleString('en')+ " - " + ( 100 -porcentaje.toFixed(2)) + "%";
 
 calcularBarra(totalVacunadaMexico,poblacionMexico,barraMexico);
 
-PtotalVacMexico.innerHTML = totalVacunadaMexico.toLocaleString('en') + " - " + Math.floor((porcentaje * 100)) + " %";
-PrestanteVacMexico.innerHTML = restantesMexico.toLocaleString('en') + " - " + Math.floor(100 - (porcentaje * 100)) + " %";
+PtotalVacMexico.innerHTML = totalVacunadaMexico.toLocaleString('en') + " - " + porcentaje.toFixed(2) + "%";
+PrestanteVacMexico.innerHTML = restantesMexico.toLocaleString('en') + " - " + ( 100 -porcentaje.toFixed(2)) + "%";
 
 fechaActualizado.innerHTML = fecha;
 horaActualizado.innerHTML = hora;
