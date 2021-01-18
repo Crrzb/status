@@ -26,9 +26,9 @@ const fechaActualizado = document.getElementById('fecha-actualizado');
 const horaActualizado = document.getElementById('hora-actualizado');
 
 
-
+let porcentaje = 0;
 const calcularBarra = (total,poblacion,barra) => {
-    let porcentaje = (total / poblacion) * 100;
+    porcentaje = (total / poblacion) * 100;
     barra.style.height = "100%";
     barra.style.width = `${Math.floor(porcentaje)}%`;
     
@@ -57,15 +57,20 @@ const calcularBarra = (total,poblacion,barra) => {
 }
 
 calcularBarra(totalVacunadaMundo,poblacionMundo,barraMundo);
+
+PtotalVacMundo.innerHTML = totalVacunadaMundo.toLocaleString('en') +" - "+ Math.floor((porcentaje * 100)) + " %";
+PrestanteVacMundo.innerHTML = restantesMundo.toLocaleString('en')+ " - " + Math.floor(100 - (porcentaje * 100)) + " %";
+
 calcularBarra(totalVacunadaMexico,poblacionMexico,barraMexico);
+
+PtotalVacMexico.innerHTML = totalVacunadaMexico.toLocaleString('en') + " - " + Math.floor((porcentaje * 100)) + " %";
+PrestanteVacMexico.innerHTML = restantesMexico.toLocaleString('en') + " - " + Math.floor(100 - (porcentaje * 100)) + " %";
 
 fechaActualizado.innerHTML = fecha;
 horaActualizado.innerHTML = hora;
 
-PtotalVacMundo.innerHTML = totalVacunadaMundo.toLocaleString('en');
-PrestanteVacMundo.innerHTML = restantesMundo.toLocaleString('en');
 
-PtotalVacMexico.innerHTML = totalVacunadaMexico.toLocaleString('en');
-PrestanteVacMexico.innerHTML = restantesMexico.toLocaleString('en');
+
+
 
 

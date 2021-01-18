@@ -37,6 +37,7 @@ header {
     border-bottom: 1px solid var(--details-color);
 
     background-color:var(--background-color);
+    padding-bottom: 5px;
     
 }
 
@@ -44,6 +45,13 @@ header p {
     font-size: 2rem;
     font-weight: bold;
     color: var(--font-color);
+}
+
+header img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
 }
 
 main {
@@ -121,6 +129,11 @@ main {
     font-size: 2.6rem;
 }
 
+.div-titulos img {
+    width: 25px;
+    height: 25px;
+}
+
 .div-contenedor-barra {
     width: 100%;
     height: 3vh;
@@ -192,6 +205,11 @@ main {
     align-items: flex-end;
 }
 
+.div-personas img{
+    width: 25px;
+    height: 25px;
+}
+
 .section-actualizado {
     width: 45%;
     min-width: 120px;
@@ -225,6 +243,12 @@ main {
     
 
     
+}
+
+.section-actualizado img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
 
 .section-instituciones {
