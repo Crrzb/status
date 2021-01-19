@@ -1,4 +1,4 @@
-let totalVacunadaMundo =40400000;
+let totalVacunadaMundo =40401540;
 let totalVacunadaMexico = 492529;
 
 
