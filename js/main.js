@@ -1,5 +1,5 @@
-let totalVacunadaMundo =41792710;
-let totalVacunadaMexico = 498122;
+let totalVacunadaMundo =57287507;
+let totalVacunadaMexico = 552335;
 
 
 
