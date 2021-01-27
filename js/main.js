@@ -1,5 +1,5 @@
-let totalVacunadaMundo =57287507;
-let totalVacunadaMexico = 629626;
+let totalVacunadaMundo =71096003;
+let totalVacunadaMexico = 652319;
 
 
 
@@ -7,8 +7,8 @@ let totalVacunadaMexico = 629626;
 let poblacionMundo =  7874965731;
 let poblacionMexico = 130262220;
 
-const fecha ="24-Enero-2021";
-const hora = "19:23";
+const fecha ="27-Enero-2021";
+const hora = "03:33";
 
 
 
